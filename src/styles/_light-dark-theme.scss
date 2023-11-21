@@ -1,0 +1,259 @@
+$themes: (  
+    bgThemeColor1: (
+        darkTheme: $color-main,
+        lightTheme: $bg-main,
+    ),
+    bgThemeColor2: (
+        darkTheme: $color-lightgray,
+        lightTheme: $color-dimgray,
+    ),
+    textThemeColor1: (
+        darkTheme: $text-primary,
+        lightTheme: $text-title-light,
+    ),
+    textThemeColor2: (
+        darkTheme: $color-inactive,
+        lightTheme: $color-lightgray,
+    ),
+    cardPosterFilter: (
+        darkTheme: $cardPosterFilter-DarkTheme,
+        lightTheme: $cardPosterFilter-LightTheme,
+    ),
+    cardHR: (
+        darkTheme: $cardHR-DarkTheme,
+        lightTheme: $cardHR-LightTheme,
+    ),
+    cardAltColor: (
+        darkTheme: $cardAltColor-DarkTheme,
+        lightTheme: $cardAltColor-LightTheme,
+    ),
+
+    // Modal
+    modalTheme: (
+        darkTheme: $color-main,
+        lightTheme: $color-dimgray,
+    ),
+    bgModalTheme: (
+        darkTheme: $lightblack,
+        lightTheme: $bg-secondary,
+    ),
+    bgModalBtnTheme: (
+        darkTheme: $color-inactive,
+        lightTheme: $color-darkgray1,
+    ),
+    modalBtnTheme: (
+        darkTheme: $color-darkgray2,
+        lightTheme: $color-gray,
+    ),
+    modalBtnActiveTheme: (
+        darkTheme: $lightblack,
+        lightTheme: $color-darkgray2,
+    ),
+    modalBtnBorderTheme: (
+        darkTheme: $text-secondary,
+        lightTheme: $color-secondary,
+    ),
+
+    // Header
+    headerBorderBottom: (
+        darkTheme: $headerBorderBottom-DarkTheme,
+        lightTheme: $headerBorderBottom-LightTheme,
+    ),
+    headerLogoOpacity: (
+        darkTheme: $headerLogoOpacity-DarkTheme,
+        lightTheme: $headerLogoOpacity-LightTheme,
+    ),
+    headerHomeSVG: (
+        darkTheme: $headerHomeSVG-DarkTheme,
+        lightTheme: $headerHomeSVG-LightTheme,
+    ),
+    headerHomeSVGHover: (
+        darkTheme: $headerHomeSVGHover-DarkTheme,
+        lightTheme: $headerHomeSVGHover-LightTheme,
+    ),
+    headerLink: (
+        darkTheme: $headerLink-DarkTheme,
+        lightTheme: $headerLink-LighTheme,
+    ),
+    headerLinkHover: (
+        darkTheme: $headerLinkHover-DarkTheme,
+        lightTheme: $headerLinkHover-LighTheme,
+    ),
+    headerLinkActive: (
+        darkTheme: $headerLinkActive-DarkTheme,
+        lightTheme: $headerLinkActive-LighTheme,
+    ),
+
+    headerLinkTextBg: (
+        darkTheme: $headerLinkTextBg-DarkTheme,
+        lightTheme: $headerLinkTextBg-LighTheme,
+    ),
+    headerLinkText: (
+        darkTheme: $headerLinkTex-DarkTheme,
+        lightTheme: $headerLinkTex-LighTheme,
+    ),
+    headerLinkTextActive: (
+        darkTheme: $headerLinkTextActive-DarkTheme,
+        lightTheme: $headerLinkTextActive-LighTheme,
+    ),
+
+    // Intro
+    introSectionTheme: (
+        darkTheme: $introBorder-DarkTheme,
+        lightTheme: $introBorder-LightTheme,
+    ),
+    introInfoTheme: (
+        darkTheme: $bgFilter-DarkTheme,
+        lightTheme: $bgFilter-LightTheme,
+    ),
+    introTitleTheme: (
+        darkTheme: $introTitleTheme,
+        lightTheme: $introTitleTheme,
+    ),
+
+    // Genres
+    genresColor: (
+        darkTheme: $colorGenre-DarkTheme,
+        lightTheme: $colorGenre-LightTheme,
+    ),
+    genresBgrd: (
+        darkTheme: $bgColorGenre-DarkTheme,
+        lightTheme: $bgColorGenre-LightTheme,
+    ),
+    genresBorder: (
+        darkTheme: $borderGenre-DarkTheme,
+        lightTheme: $borderGenre-LightTheme,
+    ),
+    genresColorHover: (
+        darkTheme: $colorGenreHover-DarkTheme,
+        lightTheme: $colorGenreHover-LightTheme,
+    ),
+    genresBgrdHover: (
+        darkTheme: $bgColorGenreHover-DarkTheme,
+        lightTheme: $bgColorGenreHover-LightTheme,
+    ),
+
+    // #content Card
+    contentCardBgColor: (
+        darkTheme: $bgColorContentCard-DarkTheme,
+        lightTheme: $bgColorContentCard-LightTheme,
+    ),
+    contentCardImgFilter: (
+        darkTheme: $bgFilterContentCard-DarkTheme,
+        lightTheme: $bgFilterContentCard-LightTheme,
+    ),
+    contentCardBorder: (
+        darkTheme: $borderContentCard-DarkTheme,
+        lightTheme: $borderContentCard-LightTheme,
+    ),
+
+    // Signup & Login
+    signupTitle: (
+        darkTheme: $signupTitle-DarkTheme,
+        lightTheme: $signupTitle-LightTheme,
+    ),
+    signupTitleBorder: (
+        darkTheme: $signupTitleBorder-DarkTheme,
+        lightTheme: $signupTitleBorder-LightTheme,
+    ),
+    inputTextColor: (
+        darkTheme: $inputTextColor--DarkTheme,
+        lightTheme: $inputTextColor--LightTheme,
+    ),
+    inputBorderBottom: (
+        darkTheme: $inputBorderBottom--DarkTheme,
+        lightTheme: $inputBorderBottom--LightTheme,
+    ),
+    labelTextColor: (
+        darkTheme: $labelTextColor--DarkTheme,
+        lightTheme: $labelTextColor--LightTheme,
+    ),
+    inputInstructions: (
+        darkTheme: $inputInstructions--DarkTheme,
+        lightTheme: $inputInstructions--LightTheme,
+    ),
+    // Submit Button Bg
+    submitBtnBg: (
+        darkTheme: $submitBtnBg-DarkTheme,
+        lightTheme: $submitBtnBg-LightTheme,
+    ),
+    // Submit Button Color 
+    submitBtnColor: (
+        darkTheme: $submitBtnColor-DarkTheme,
+        lightTheme: $submitBtnColor-LightTheme,
+    ),
+    // Submit Button Border
+    submitBtnBorder: (
+        darkTheme: $submitBtnBorder-DarkTheme,
+        lightTheme: $submitBtnBorder-LightTheme,
+    ),
+/////////////////////////////////////////////////////
+    // Submit Button Bg - Disabled
+    submitBtnBgDisabled: (
+        darkTheme: $submitBtnBgDisabled-DarkTheme,
+        lightTheme: $submitBtnBgDisabled-LightTheme,
+    ),
+    // Submit Button Color - Disabled
+    submitBtnColortDisabled: (
+        darkTheme: $submitBtnColortDisabled-DarkTheme,
+        lightTheme: $submitBtnColortDisabled-LightTheme,
+    ),
+    // Submit Button Border - Disabled
+    submitBtnBorderDisabled: (
+        darkTheme: $submitBtnBorderDisabled-DarkTheme,
+        lightTheme: $submitBtnBorderDisabled-LightTheme,
+    ),
+/////////////////////////////////////////////////////
+    // Submit Button Bg - Active
+    submitBtnBgActive: (
+        darkTheme: $submitBtnBgActive-DarkTheme,
+        lightTheme: $submitBtnBgActive-LightTheme,
+    ),
+    // Submit Button Color - Active
+    submitBtnColorActive: (
+        darkTheme: $submitBtnColorActive-DarkTheme,
+        lightTheme: $submitBtnColorActive-LightTheme,
+    ),
+    // Submit Button Border - Active
+    submitBtnBorderActive: (
+        darkTheme: $submitBtnBorderActive-DarkTheme,
+        lightTheme: $submitBtnBorderActive-LightTheme,
+    ),
+/////////////////////////////////////////////////////
+    formBottomColor: (
+        darkTheme: $formBottomColor-DarkTheme,
+        lightTheme: $formBottomColor-LightTheme,
+    ),
+    formBottomLink: (
+        darkTheme: $formBottomLink-DarkTheme,
+        lightTheme: $formBottomLink-LightTheme,
+    ),
+    formBottomLinkHover: (
+        darkTheme: $formBottomLinkHover-LightTheme,
+        lightTheme: $formBottomLinkHover-LightTheme,
+    ),
+
+    // Footer
+    disclaimerLink: (
+        darkTheme: $disclaimerLink-DarkTheme,
+        lightTheme: $disclaimerLink-LightTheme,
+    )
+);
+
+@mixin styles($mode) {
+    @each $key, $map in $themes {
+        @each $prop, $color in $map {
+            @if $prop == $mode {
+                --#{$key}: #{$color};
+            }
+        }
+    }
+}
+
+.dark-mode {
+    @include styles("darkTheme");
+}
+
+.light-mode {
+    @include styles("lightTheme");
+}

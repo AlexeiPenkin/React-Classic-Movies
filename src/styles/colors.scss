@@ -1,0 +1,171 @@
+// Colors
+$bg-main: rgb(255, 255, 255);
+$bg-secondary: rgba(255, 255, 255, .25);
+$block-border: 1px dotted rgba(128, 128, 128, 0.9);
+$block-border-solid: 3px solid rgba(128, 128, 128, 0.5);
+
+$color-main: #000;
+$color-secondary: #fff;
+$color-inactive: rgba(255, 255, 255, 0.15);
+$color-lightgray: #c9c9c9;
+$color-gray: #999;
+$color-dimgray: dimgray;
+$color-darkgray1: rgba(153, 153, 153, .6);
+$color-darkgray2: #484848;
+
+$lightblack: rgba(30, 30, 30, 0.25);
+$inputLabel: rgb(124, 150, 255);
+
+$text-accent: #a85650;
+$text-accent-bright: #db2518;
+$text-accent2: rgb(149, 0, 255);
+$text-accent-label: rgb(124, 150, 255);
+$text-inactive: dimgray;
+$text-primary: #fff;
+$text-secondary: rgba(255, 255, 255, 0.9);
+$text-title-light: #777;
+
+// Card
+$cardPosterFilter-DarkTheme: brightness(.6) contrast(1.1) saturate(.3);
+$cardPosterFilter-LightTheme: brightness(.8) contrast(1.1) saturate(.3);
+
+$cardHR-DarkTheme: rgba(255, 255, 255, 0.15);
+$cardHR-LightTheme: lightgray;
+
+$cardAltColor-DarkTheme: lightgray;
+$cardAltColor-LightTheme: dimgray;
+
+// Header
+$headerBorderBottom-DarkTheme: #ffffff26;
+$headerBorderBottom-LightTheme: #ececec;
+
+$headerLogoOpacity-DarkTheme: 0.5;
+$headerLogoOpacity-LightTheme: 0.9;
+
+$headerHomeSVG-DarkTheme: rgba(255, 255, 255, 0.5);
+$headerHomeSVG-LightTheme: rgba(255, 255, 255, 0.5);
+
+$headerHomeSVGHover-DarkTheme: #fff;
+$headerHomeSVGHover-LightTheme: #777;
+
+$headerLink-DarkTheme: rgba(255, 255, 255, 0.5);
+$headerLink-LighTheme: dimgray;
+
+$headerLinkHover-DarkTheme: #fff;
+$headerLinkHover-LighTheme: #999;
+
+$headerLinkActive-DarkTheme: #db2518;
+$headerLinkActive-LighTheme: #db2518;
+
+$headerLinkTextBg-DarkTheme: #333;
+$headerLinkTextBg-LighTheme: #999;
+
+$headerLinkTex-DarkTheme: #fff;
+$headerLinkTex-LighTheme: #fff;
+
+$headerLinkTextActive-DarkTheme: #db2518;
+$headerLinkTextActive-LighTheme: #db2518;
+
+// Intro
+$introTitleTheme: #fff;
+
+$introBorder-DarkTheme: dimgray;
+$introBorder-LightTheme: rgba(0, 0, 0, 0.5);
+
+$bgFilter-DarkTheme: blur(2px) brightness(.4);
+$bgFilter-LightTheme: blur(2px) brightness(.7);
+
+// Categories - Genres Buttons
+$colorGenre-DarkTheme: rgba(255, 255, 255, 0.5);
+$colorGenre-LightTheme: #fff;
+
+$bgColorGenre-DarkTheme: #18181a;
+$bgColorGenre-LightTheme: #999;
+
+$borderGenre-DarkTheme: #999;
+$borderGenre-LightTheme: #777;
+
+$colorGenreHover-DarkTheme: #fff;
+$colorGenreHover-LightTheme: dimgray;
+
+$bgColorGenreHover-DarkTheme: rgba(255, 255, 255, .16);
+$bgColorGenreHover-LightTheme: #c9c9c9;
+
+// Content Card
+$bgColorContentCard-DarkTheme: #000;
+$bgColorContentCard-LightTheme: #999;
+
+$bgFilterContentCard-DarkTheme: brightness(.4) blur(2px);
+$bgFilterContentCard-LightTheme: brightness(.6) blur(2px);
+
+$borderContentCard-DarkTheme: #fff;
+$borderContentCard-LightTheme: dimgray;
+
+// Signup & Login Forms
+
+// Form Title
+$signupTitle-DarkTheme: #fff;
+$signupTitle-LightTheme: #777; 
+// Form Border
+$signupTitleBorder-DarkTheme: linear-gradient(0.25turn, rgba(138, 43, 227, 0.2), rgba(138, 43, 227, 0.7), rgba(138, 43, 227, 0.2));
+$signupTitleBorder-LightTheme: linear-gradient(0.25turn, rgba(138, 43, 227, 0.1), rgba(138, 43, 227, 0.25), rgba(138, 43, 227, 0.1));
+// Input Color
+$inputTextColor--DarkTheme: #fff;
+$inputTextColor--LightTheme: #777;
+// input Border Bottom
+$inputBorderBottom--DarkTheme: #fff;
+$inputBorderBottom--LightTheme: rgba(0, 0, 0, 0.25);
+// Label Color
+$labelTextColor--DarkTheme: rgba(255, 255, 255, 0.6);
+$labelTextColor--LightTheme: rgba(0, 0, 0, 0.6);
+// Input Instructions
+$inputInstructions--DarkTheme: rgba(255, 255, 255, 0.35);
+$inputInstructions--LightTheme: rgba(0, 0, 0, 0.7);
+// Submit Button Bg
+$submitBtnBg-DarkTheme: rgb(124, 150, 255);
+$submitBtnBg-LightTheme: rgb(124, 150, 255);
+// Submit Button Color
+$submitBtnColor-DarkTheme: #fff;
+$submitBtnColor-LightTheme: #fff;
+// Submit Button Border
+$submitBtnBorder-DarkTheme: #fff;
+$submitBtnBorder-LightTheme: rgba(0, 0, 0, 0.15);
+
+
+// Submit Button Bg - Disabled
+$submitBtnBgDisabled-DarkTheme: rgba(255, 255, 255, 0.35);
+$submitBtnBgDisabled-LightTheme: rgba(0, 0, 0, 0.05);
+// Submit Button Color - Disabled
+$submitBtnColortDisabled-DarkTheme: rgba(255, 255, 255, 0.35);
+$submitBtnColortDisabled-LightTheme: rgba(0, 0, 0, 0.35);
+// Submit Button Border - Disabled
+$submitBtnBorderDisabled-DarkTheme: rgba(255, 255, 255, 0.35);
+$submitBtnBorderDisabled-LightTheme: rgba(0, 0, 0, 0.25);
+
+
+// Submit Button Bg - Active
+$submitBtnBgActive-DarkTheme: rgb(96, 128, 253);
+$submitBtnBgActive-LightTheme: rgb(150, 171, 255);
+// Submit Button Color - Active
+$submitBtnColorActive-DarkTheme: #fff;
+$submitBtnColorActive-LightTheme: #fff;
+// Submit Button Border - Active
+$submitBtnBorderActive-DarkTheme: #fff;
+$submitBtnBorderActive-LightTheme: rgba(0, 0, 0, 0.25);
+
+
+// Form Bottom Color
+$formBottomColor-DarkTheme: rgba(255, 255, 255, 0.7);
+$formBottomColor-LightTheme: rgba(0, 0, 0, 0.5);
+
+// Form Bottom Link
+$formBottomLink-DarkTheme: #fff;
+$formBottomLink-LightTheme: rgba(0, 0, 0, 0.8);
+
+// // Form Bottom Link - Hover
+$formBottomLinkHover-DarkTheme: rgb(124, 150, 255);
+$formBottomLinkHover-LightTheme: rgb(124, 150, 255);
+
+// Footer
+$disclaimerLink-DarkTheme: rgba(255, 255, 255, 0.8);
+$disclaimerLink-LightTheme: #999;

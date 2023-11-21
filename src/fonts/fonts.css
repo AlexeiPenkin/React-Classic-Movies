@@ -1,0 +1,184 @@
+/* CascadiaMono */
+@font-face {
+    font-family: "CascadiaMono";
+    font-weight: 100;
+    src: local("CascadiaMono"),
+         url("../fonts/CascadiaMono-ExtraLight.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMono";
+    font-weight: 200;
+    src: local("CascadiaMono"),
+         url("../fonts/CascadiaMono-SemiLight.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMono";
+    font-style: light;
+    font-weight: 300;
+    src: local("CascadiaMono"),
+         url("../fonts/CascadiaMono-Light.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMono";
+    font-style: normal;
+    font-weight: 400;
+    src: local("CascadiaMono"),
+         url("../fonts/CascadiaMono-Regular.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMono";
+    font-weight: 500;
+    src: local("CascadiaMono"),
+         url("../fonts/CascadiaMono-SemiBold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMono";
+    font-style: bold;
+    font-weight: 600;
+    src: local("CascadiaMono"),
+         url("../fonts/CascadiaMono-Bold.woff2") format("woff2")
+}
+
+/* CascadiaMonoPL */
+@font-face {
+    font-family: "CascadiaMonoPL";
+    font-weight: 100;
+    src: local("CascadiaMonoPL"),
+         url("../fonts/CascadiaMonoPL-ExtraLight.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMonoPL";
+    font-weight: 200;
+    src: local("CascadiaMonoPL"),
+         url("../fonts/CascadiaMonoPL-SemiLight.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMonoPL";
+    font-style: light;
+    font-weight: 300;
+    src: local("CascadiaMonoPL"),
+         url("../fonts/CascadiaMonoPL-Light.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMonoPL";
+    font-style: normal;
+    font-weight: 400;
+    src: local("CascadiaMonoPL"),
+         url("../fonts/CascadiaMonoPL-Regular.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMonoPL";
+    font-weight: 500;
+    src: local("CascadiaMonoPL"),
+         url("../fonts/CascadiaMonoPL-SemiBold.woff2") format("woff2")
+}
+@font-face {
+    font-family: "CascadiaMonoPL";
+    font-style: bold;
+    font-weight: 600;
+    src: local("CascadiaMonoPL"),
+         url("../fonts/CascadiaMonoPL-Bold.woff2") format("woff2")
+}
+
+/* Pobeda */
+@font-face {
+    font-family: "Pobeda";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/Pobeda-Regular.woff2") format("woff2")
+}
+@font-face {
+    font-family: "Pobeda";
+    font-weight: 600;
+    font-style: bold;
+    src: url("../fonts/Pobeda-Bold.woff2") format("woff2")
+}
+
+/* RedOctober */
+@font-face {
+    font-family: "RedOctober";
+    font-weight: 200;
+    font-style: light;
+    src: url("../fonts/RedOctoberLight.woff2") format("woff2")
+}
+@font-face {
+    font-family: "RedOctober";
+    font-weight: 400;
+    font-style: normal;
+    src: url("../fonts/RedOctober.woff2") format("woff2")
+}
+@font-face {
+    font-family: "RedOctober";
+    font-weight: 600;
+    font-style: bold;
+    src: url("../fonts/RedOctober-Fat.woff2") format("woff2")
+}
+
+/* Yandex Sans */
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Text';
+    src: url('YandexSansText-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-Thin.woff2') format('woff2');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-Light.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-RegularItalic.woff2') format('woff2');
+    font-weight: normal;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'Yandex Sans Display';
+    src: url('YandexSansDisplay-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+}
